@@ -7,6 +7,7 @@
         Task<TViewModel> AddAsync(TViewModel viewModel);
         Task<TViewModel> UpdateAsync(TViewModel viewModel);
         Task<bool> DeleteAsync(int id);
+      
     }
     
 
